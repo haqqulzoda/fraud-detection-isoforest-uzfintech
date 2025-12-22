@@ -38,7 +38,7 @@ def load_artifacts():
 def load_data():
     # We load the processed data just to pick random rows from it
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(base_dir, '..', 'data', 'creditcard_processed.csv') 
+    data_path = os.path.join(base_dir, '..', 'data', 'creditcard_sample.csv') 
     df = pd.read_csv(data_path)
     return df
 
