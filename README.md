@@ -1,7 +1,6 @@
 # 🛡️ FraudGuard: Real-Time Anomaly Detection
 
 ## 📌 Project Overview
-Detecting credit card fraud is a "Needle in a Haystack" problem (only 0.17% of transactions are fraudulent). Traditional supervised rules fail when fraud patterns change.
 This project implements an **Unsupervised Learning** engine using **Isolation Forest** to detect anomalies in real-time without needing labeled training data.
 
 **Key Feature:** Converts raw anomaly scores into a human-readable **0-100 Risk Score** for bank analysts.
